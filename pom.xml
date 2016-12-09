@@ -30,6 +30,21 @@
   <artifactId>turbine-parent-assembly</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
-  <name>Turbine Project Default Assembly Descriptors</name>
+  <name>Turbine Assembly Descriptors</name>
+  <description>
+    The Default Assembly Descriptors for the Apache Turbine and Fulcrum project.
+  </description>  
+  <url>http://turbine.apache.org</url>
+  <inceptionYear>2016</inceptionYear>
 
+  <!-- Now required by versions plugin -->
+  <prerequisites>
+    <maven>3.0.1</maven>
+  </prerequisites>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/turbine/maven/turbine-parent-assembly/trunk</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/turbine/maven/turbine-parent-assembly/trunk</developerConnection>
+    <url>http://svn.apache.org/viewvc/turbine/maven/turbine-parent-assembly/trunk/</url>
+  </scm>
 </project>
